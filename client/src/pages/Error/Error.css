@@ -1,0 +1,77 @@
+.error-page{
+    position: absolute;
+    top: 10%;
+    left: 17%;
+    right: 7%;
+    bottom: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.error-page .content{
+    max-width: 600px;
+    text-align: center;
+}
+.content h1{
+    position: absolute;
+    bottom: 40% ;
+    left: 10%;
+    font-size: 9vw;
+    line-height: 1em;
+}
+.content h1::after{
+    position: absolute;
+    content: attr(data-text);
+    top: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(#000000, #f70606);
+    background-size: 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 1px 1px 2px rgba(255 , 255 , 255 ,0.25);
+    animation: animate 10s ease-in-out infinite;
+}
+
+.content h4{
+    position: absolute;
+    top: 45%;
+    left: 36%;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    color: #000;
+    max-width: 400px;
+    font-size: 6em;
+}
+.content p{
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    font-size: 1.5em;
+    
+}
+.content .btns{
+    position: absolute;
+    top: 80%;
+    left: 36%;
+    margin: 25px 0;
+    display: inline-flex;
+    
+}
+.content .btns .a{
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    border: 2px solid #69a6ce;
+    color: #69a6ce;
+    font-weight: 500;
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+.content .btns .a:hover{
+    color: #fff;
+    background: #69a6ce;
+}

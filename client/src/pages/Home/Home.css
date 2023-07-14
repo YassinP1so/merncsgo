@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500;600;700&family=Merriweather&family=Montserrat:wght@300;400;500;600;700;800;900&family=Nunito+Sans:wght@200;300;400;600;700;800;900&family=Poppins:wght@300;400;500;600;700&family=Roboto+Slab:wght@100;300&family=Roboto:wght@100;300;400;500;700;900&family=Rubik:wght@300;500;600;700;800&display=swap');
+
+.background-img{
+    position: relative;
+    background-image: url("https://images5.alphacoders.com/665/665419.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 877px;
+    width: 100%;
+    margin-top: 0px;
+    
+}
+.card {
+    position: absolute;
+    right:5.3%;
+    top: 17%;
+    width: 500px;
+    height: 144px;
+    background: linear-gradient(transparent ,);
+    background-color: transparent ;
+    backdrop-filter: saturate(200%) blur(20px); 
+    
+}
+h3{
+    font-family: 'Roboto Slab', serif;
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    color: white;
+    font-size: 17px;
+}
+.inputet{
+    position: absolute;
+    left: 40%;
+    top: 10%;
+    background-color: #383838;
+    border: 1ex solid none;
+    border-top-width: 1.7em;
+    margin: 0;
+    padding: 0;
+    color: #383838;
+    word-wrap: break-word;
+    outline: 7px solid #383838;
+    height: 30px;
+    font-size: 17px;
+    text-align: center;
+    transition: all 1s;
+    width: 390px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.inputet:hover{
+    border-top-width: 0.2em;
+    background-color: #f1e8e8;
+}

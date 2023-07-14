@@ -1,0 +1,89 @@
+.title{
+    background-color: rgb(0, 0, 0);
+    width: 700px;
+    margin-left: 70px;
+    color: white;
+    height: 50px;
+}
+.paragraph-contact{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.Contact-Name{
+    position: absolute;
+    left: 55%;
+    top: 70%;
+}
+.Contact-Name {
+    width: 180px;
+    max-width: 220px;
+    height: 15px;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1.5px solid lightgrey;
+    outline: none;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    box-shadow: 0px 0px 20px -18px;
+  }
+  
+  .Contact-Name:hover {
+    border: 2px solid lightgrey;
+    box-shadow: 0px 0px 20px -17px;
+  }
+  
+  .Contact-Name:active {
+    transform: scale(0.95);
+  }
+  
+  .Contact-Name:focus {
+    border: 2px solid grey;
+  }
+
+
+.Contact-Email{
+    position: absolute;
+    left: 55%;
+    top: 75%;
+}
+.Contact-Email {
+    width: 180px;
+    max-width: 220px;
+    height: 15px;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1.5px solid lightgrey;
+    outline: none;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    box-shadow: 0px 0px 20px -18px;
+  }
+  
+  .Contact-Email:hover {
+    border: 2px solid lightgrey;
+    box-shadow: 0px 0px 20px -17px;
+  }
+  
+  .Contact-Email:active {
+    transform: scale(0.95);
+  }
+  
+  .Contact-Email:focus {
+    border: 2px solid grey;
+  }
+  .textarea{
+    background-color: #ffffff;
+    color: #666666;
+    pad: 1em;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    outline: none;
+    position: absolute;
+    left: 67%;
+    top: 69%;
+    height: 200px;
+    width: 500px;
+  }
+.emalio , .numiro , .mapo{
+    margin-right: 600px;
+    font-size: 15px;
+}
